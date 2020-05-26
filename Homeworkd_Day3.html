@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+        let name = "Đoàn Huy Tuấn";
+        let lop = "C4EJS83";
+        console.log(name);
+        console.log(lop);
+// bài 1
+    // let cauthubongda = ["Ronaldo","Messi","Neymar"];
+    // console.log(cauthubongda);
+    // do{
+    // i = prompt("có muốn thêm cẩu thủ ko, Y/N?");
+    //     if(i=="y"){
+    //         let a = prompt("tên cầu thủ?");
+    //         cauthubongda.push(a);
+    //         console.log(cauthubongda);
+    //     }
+    //     else if(i=="n"){
+    //         console.log("Goodbye");
+
+    //     }
+    //     else{
+    //         console.log("error");
+
+    //     }
+    // }
+    // while(i=="y");
+// bài 2
+    // let car = ["Honda","Suzuki","Yamaha","Kawasaki","Ducati","Triumph"];
+    // let dreamcar = car[4];
+    // console.log(dreamcar);
+// bài 3
+    // let car = ["Audi","Bentley","BMW","Bugatti","Ferrari"];
+    // for(let i = 0; i<car.length;i++){
+    //     console.log(car[i]);
+    // }
+// bài 4
+    // let cauthubongda = ["Ronaldo","Messi","Neymar"];
+    // console.log(cauthubongda);
+    // do{
+    // let i = prompt("có muốn thêm cẩu thủ ko, Y/N?");
+    // switch(i){
+    //     case "y":
+    //     let a = prompt("vị trí muốn nhập?");
+    //         if(a==0){
+    //             let b = prompt("tên cầu thủ?");
+    //             cauthubongda[0] = b;
+    //             console.log(cauthubongda);}
+    //         else if(a==1){
+    //             let c = prompt("tên cầu thủ?");
+    //             cauthubongda[1] = c;
+    //             console.log(cauthubongda);}
+    //         else if(a==2){
+    //             let d = prompt("tên cầu thủ?");
+    //             cauthubongda[2] = d;
+    //             console.log(cauthubongda);}
+    //     break;
+    //     case "n":
+    //     console.log("Goodbye");
+    //     break;
+    //     default:
+    //         console.log("error");
+    //         break;}
+    // }
+    // while(i=="y");
+// bài 5
+//     let cauthubongda = ["Ronaldo","Messi","Neymar"];
+//     console.log(cauthubongda);
+//     do{
+//         i = prompt("có muốn xóa cẩu thủ ko, Y/N?");
+//         if(i=="y"){
+//             let position = prompt("vị trí muốn xóa?");
+//             cauthubongda.splice(position,1);
+//             console.log(cauthubongda);
+//         }
+//         else{
+//             console.log("Goodbye");
+//         }
+// }
+// while(i=="y");
+// bài 6
+let items=["T-shirt","Sweater"];
+    do{
+    let i = prompt("What do you want (C, R, U, D)?");
+    switch(i){
+        case "r":
+        console.log(items);
+        break;
+        case "c":
+        let a = prompt("Enter new item?");
+        items.push(a);
+        console.log(items);
+        break;
+        case "u":
+        let b = prompt("Update position?");
+        let c = prompt("New items?");
+        items[b]=c;
+        console.log(items);
+        break;
+        case "d":
+        let d = prompt("Delete position?");
+        items.splice(d,1);
+        console.log(items);
+        break;
+        }
+     var continues = prompt("Continue? Y/N");
+    }
+    while(continues=="y");
+// bài 7
+// let fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits[1]);
+// fruits.push("Lemon");
+// console.log(fruits.length);
+// for( let x = 0; x<fruits.length; x++){
+// console.log(fruits[x]);}
+// fruits.splice(0,1);
+// fruits.pop();
+// fruits.shift();
+// console.log(fruits.join(" "));
+// bài 8
+// let Group1 = ["Cecilie", "Lone"];
+// let Group2 = ["Emil", "Tobias", "Linus"];
+// let Group3 = ["Robin", "Morgan"];
+// console.log(Group1.concat(Group2,Group3));
+// bài 9
+// let fruits = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits.sort());
+// console.log(fruits.reverse());
+// bài 10
+// let fruit = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruit);
+// fruitsNew = fruit.splice(2, 2, "Lemon", "Kiwi");
+// console.log(fruit);
+</script>
