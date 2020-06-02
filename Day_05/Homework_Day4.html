@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let name = "Đoàn Huy Tuấn";
+    let lop = "C4EJS83";
+    console.log(name);
+    console.log(lop);
+// bài 1
+// car = {
+//     type: "Fiat",
+//     model: "500",
+//     color: "white"
+// }
+// console.log(car.type);
+// bài 2
+// person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     age: 50,
+//     eyeColor: "Blue"
+// }
+// console.log(person.firstName + " is " + person.age + " years old.");
+// bài 3
+// var person = {
+//     firstName: "John",
+//     lastName: "Doe",
+//     id:5566,
+//     fullName : function() {
+//         return this.firstName + " " + this.lastName;
+//     }
+// }
+// console.log(person.fullName());
+// bài 4
+// let player ={
+//     name: "	Cristiano Ronaldo dos Santos Aveiro",
+//     age: 35,
+//     nationality: "Portugal"
+// }
+// do{
+//     i = prompt("Do you want to update info?");
+//     i = i.toLowerCase();
+//     if(i=="y"){
+//         let a = prompt("which categories do you want to add?");
+//         let b = prompt("Specific info of above categories?");
+//         player[a] = b;
+//         console.log(player);
+//     }
+//     else if(i=="n"){
+//         console.log("Goodbye");
+//     }
+// }
+// while(i=="y");
+// bài 5
+// let player ={
+//     name: "	Cristiano Ronaldo dos Santos Aveiro",
+//     age: 35,
+//     nationality: "Portugal"
+// }
+// player.name = "Lionel Andrés Messi Cuccittini";
+// player.age = 32;
+// player.nationality = "Argentina";
+// console.log(player);
+// bài 6
+// let player ={
+//     name: "Cristiano Ronaldo dos Santos Aveiro",
+//     age: 35,
+//     nationality: "Portugal"
+// }
+// do{
+//     var a = prompt("Do you want to delete info?");
+//     a = a.toLowerCase();
+//     if(a=="y"){
+//     var b = prompt("What do you want to delete? (name, age, nationality)");
+//         switch(b){
+//             case "age":
+//             delete player.age;
+//             console.log(player);
+//             break;
+//             case "name":
+//             delete player.name;
+//             console.log(player);
+//             break;
+//             case "nationality":
+//             delete player.nationality;
+//             console.log(player);
+//             break;
+//             default:
+//             console.log("Error")
+//             break;
+//         }
+//     }
+//     if(a=="n"){
+//         console.log("goodbye");
+//     }
+// }
+// while(a=="y")
+// bài 7
+// inventory = {
+//     'gold' : 500,
+//     'pouch' : ['flint', 'twine', 'gemstone'],
+//     'backpack' : ['xylophone', 'dagger', 'bedroll', 'bread loaf']
+// }
+// console.log(inventory);
+// inventory.pocket = ["seashell", "strange berry", "lint"];
+// inventory.backpack.splice(0,1); //cách 2
+// // delete inventory.backpack[1] //cách 1
+// console.log(inventory);
+// delete inventory.pouch;
+// let a = inventory.gold + 50;
+// inventory.gold = a;
+// console.log(inventory);
+// bài 8
+// function multiply(a, b){
+//     return a * b;
+// }
+// console.log(multiply(4, 3));
+// bài 9
+// function sum(){
+//     let a = Number(prompt("a?"));
+//     let b = Number(prompt("b?"));
+//     return a+b;
+// }
+// console.log(sum());
+// bài 10
+// function remove_dollar_sign(s) {
+//       let pattern = /\$/g;
+//       let result = s.replace(pattern, "");
+//       return result;
+//     }
+//     let s = prompt("Enter your string:");
+//     console.log(remove_dollar_sign(s));
+// bài 12
+// (function (){
+//     console.log("Hello! I call myself");
+// })();
+// bài 13
+// function myFunction(a, b){
+//     return a * b;
+// }
+// let x = myFunction(4, 3)*2;
+// console.log(x);
+// bài 14
+// hello = function(){
+//     return "Hello world";
+// }
+// console.log(hello());
+// hello = () => {
+//     return "Hello world";
+// }
+// console.log(hello());
+// bài 15
+// let hello;
+// hello = (val) => "Hello" + val;
+// console.log(hello(" Universe!"));
+// bài 17
+// const x = (x, y) => { return x * y};
+// console.log(x(5, 5));
+// bài 18
+// const x = (x, y) => { return x * y };
+// console.log('Ket qua 5 * 5 = ' + x(5, 5));
+// bài 19
+// function findMax() {
+//     let i;
+//     let max = 0;
+//     for(i = 0; i < arguments.length; i++) {
+//         if (arguments[i] > max){
+//             max = arguments[i];
+//         }
+//     }
+//     return max;
+// }
+// console.log(findMax(4, 5, 6));
+// bài 20
+// function findSum(){
+//     let i;
+//     let sum = 0;
+//     for(i=0; i < arguments.length; i++){
+//         sum += arguments[i];
+//     }
+//     return sum;
+// }
+// console.log(findSum(1, 123, 500, 115, 44, 88));
+// bài 21
+// let myObject = {
+//     firstName:"John",
+//     lastName: "Doe",
+//     fullName: function() {
+//         return this.firstName + " " + this.lastName;
+//     }
+// }
+// console.log(myObject.fullName());
+// bài 22
+// let person = {
+//     fullName: function() {
+//         return this.firstName + " " + this.lastName;
+//     }
+// }
+// let person1 = {
+//     firstName: "John",
+//     lastName: "Doe",
+// }
+// let person2 = {
+//     firstName: "Mary",
+//     lastName: "Doe",
+// }
+// let x = person.fullName.call(person1);
+// console.log(x);
+// bài 23
+// let person = {
+//     fullName: function(city, country) {
+//         return this.firstName + " " + this.lastName + "," + city + "," + country;
+//     }
+// }
+// let person1 = {
+//     firstName: "John",
+//     lastName: "Doe",
+// }
+// let person2 = {
+//     firstName: "Mary",
+//     lastName: "Doe",
+// }
+// let x = person.fullName.call(person1, "Oslo", "Norway");
+// console.log(x);
+// bài 24
+// let counter = 0;
+// function add() {
+//     counter += 1;
+// }
+// add();
+// add();
+// add();
+// console.log("The counter is: " + counter);
+// bài 25
+// function add() {
+//     var counter = 0;
+//     function plus() { counter += 1;}
+//     plus();
+//     return counter;
+// }
+// console.log(add());
+// bài 26
+// 1.
+// function conThoAnCo() {
+//     setTimeout(function() {
+//         console.log('con thỏ ăn cỏ, uống nước');
+//     }, 3000);
+// }
+// // con thỏ chui vô hang
+// function hotel() {
+//     console.log('chui vô hotel');
+// }
+// conThoAnCo();
+// hotel();
+// 2.
+// function conThoAnCo(callback007) {
+//     setTimeout(function() {
+//         console.log('con thỏ ăn cỏ, uống nước');
+//         callback007(); // đây là lúc điệp viên báo cáo cho sếp !
+//     }, 3000);
+// }
+// function hotel() {
+//     console.log('chui vô hotel');
+// }
+// var callback = function(){
+//     hotel();
+// }
+// conThoAnCo(callback)
+// 3.
+// function conThoAnCo(callback007) {
+//     setTimeout(function() {
+//         console.log('con thỏ ăn cỏ, uống nước');
+//         callback007(); // đây là lúc điệp viên báo cáo cho sếp !
+//     }, 3000);
+// }
+// function hotel() {
+//     console.log('chui vô hotel');
+// }
+// conThoAnCo(function() {
+//     hotel();
+// });
+
+</script>
